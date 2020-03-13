@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/homepage"
+        android:title="Homepage"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/homework"
+        android:title="Homeworks"
+        android:icon="@drawable/ic_subject"/>
+
+
+    </group>
+
+    <item
+        android:title="More options">
+
+    <menu>
+
+        <item
+            android:id="@+id/edit_profile"
+            android:title="Edit profile"
+            android:icon="@drawable/ic_profile"/>
+
+
+
+        <item
+            android:id="@+id/setting"
+            android:title="Settings"
+            android:icon="@drawable/ic_about"/>
+
+    </menu>
+
+    </item>
+
+
+
+</menu>
